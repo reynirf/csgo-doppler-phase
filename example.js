@@ -12,6 +12,6 @@ request({
   const descriptionsWithPhases = body.descriptions.map((description) => {
     return description.phase = phase.detect(description.market_hash_name, description.icon_url)
   });
-  console.log(descriptionsWithPhases)
+  console.log(body.descriptions)
   // some code...
 });
