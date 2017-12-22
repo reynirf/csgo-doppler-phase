@@ -1,31 +1,52 @@
-${pkg.name}
-${badge('npm')} ${badge('npm-license')} ${badge('github-issues')} ${badge('circleci')}
+# Doppler Phase
+This module makes it easy to detect a phase on a doppler knife in CS:GO. It makes it possible to detect dopplers without inspecting the item - which means that you can use this for every (public) inventory.
 
-${pkg.description}
+# Setup:
+```
+$ npm install csgo-doppler-phase
+```
 
-${badge('nodei')}
+# Usage:
 
-${badge('travis-status')} ${badge('github-stars')} ${badge('github-forks')}
+```javascript
+const phase = require('csgo-doppler-phase')
 
-${badge('github-forks')}
+phase.detect(market_hash_name, icon_url, (err, res) => {
+	if(err) {
+		console.log(err)
+	} else {
+		//example res: 'phase1' or 'sapphire'
+		console.log(res)
+	}
+})
+```
 
-${badge('dependencies')} ${badge('devDependencies')}
+Take a look at [example.js](https://github.com/reynirf/csgo-doppler-phase/blob/master/example.js) for a working example.
 
-Features
-Install
-npm install --save ${pkg.name}
 
-Scripts
-${scripts()}
 
-Dependencies
-${dependencies()}
+# Phases:
 
-Contributing
-Contributions welcome; Please submit all pull requests against the master branch. If your pull request contains JavaScript patches or features, you should include relevant unit tests. Please check the Contributing Guidelines for more details. Thanks!
+* **Doppler**
+  * Phase 1
+  * Phase 2
+  * Phase 3
+  * Phase 4
+  * Ruby
+  * Sapphire
+  * Black Pearl
+* **Gamma Doppler**
+  * Phase 1
+  * Phase 2
+  * Phase 3
+  * Phase 4
+  * Emerald
 
-Author
-${author()}
 
-License
-${license()}
+#### Create an issue on Github if you've found a problem
+
+### Author: 
+* **Reynir**
+	* [Steam](https://steamcommunity.com/id/Reynir99)
+	* [Github](https://github.com/reyinrf)
+ 
