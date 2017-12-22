@@ -35,6 +35,7 @@ Take a look at [example.js](https://github.com/reynirf/csgo-doppler-phase/blob/m
   * Ruby
   * Sapphire
   * Black Pearl
+
 * **Gamma Doppler**
   * Phase 1
   * Phase 2
@@ -48,5 +49,5 @@ Take a look at [example.js](https://github.com/reynirf/csgo-doppler-phase/blob/m
 ### Author: 
 * **Reynir**
 	* [Steam](https://steamcommunity.com/id/Reynir99)
-	* [Github](https://github.com/reyinrf)
+	* [Github](https://github.com/reynirf)
  
