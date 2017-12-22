@@ -1,5 +1,5 @@
 "use strict"
-const phase = require('./index')
+const phase = require('csgo-doppler-phase')
 const request = require('request')
 const async = require('async')
 //must install async and request for this example to work
