@@ -1,3 +1,4 @@
+"use strict"
 exports.detect = (market_hash_name, icon_url, callback) => {
 	if(market_hash_name.indexOf('Doppler') > -1 && market_hash_name.indexOf('Gamma Doppler') === -1){
 		if(market_hash_name.indexOf('Karambit') > -1){
