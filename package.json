@@ -1,6 +1,6 @@
 {
   "name": "csgo-doppler-phase",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This module makes it easy to detect a phase on a doppler.",
   "main": "index.js",
   "scripts": {
