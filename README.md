@@ -11,14 +11,9 @@ $ npm install csgo-doppler-phase
 ```javascript
 const phase = require('csgo-doppler-phase')
 
-phase.detect(market_hash_name, icon_url, (err, res) => {
-	if(err) {
-		console.log(err)
-	} else {
-		//example res: 'phase1' or 'sapphire'
-		console.log(res)
-	}
-})
+const descriptionsWithPhases = body.descriptions.map((description) => {
+    return description.phase = phase.detect(description.market_hash_name, description.icon_url)
+});
 ```
 
 Take a look at [example.js](https://github.com/reynirf/csgo-doppler-phase/blob/master/example.js) for a working example.
