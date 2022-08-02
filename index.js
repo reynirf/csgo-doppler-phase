@@ -1,8 +1,8 @@
 "use strict"
 exports.detect = (market_hash_name, icon_url) => {
-	if(market_hash_name.indexOf('Doppler') > -1 && market_hash_name.indexOf('Gamma Doppler') === -1){
-		if(market_hash_name.indexOf('Karambit') > -1){
-			switch(icon_url){
+	if(market_hash_name.indexOf('Doppler') > -1 && market_hash_name.indexOf('Gamma Doppler') === -1) {
+		if(market_hash_name.indexOf('Karambit') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJlY20k_jkI7fUhFRB4MRij7j--YXygED6-kU_Y2HyLYaXeldoZFHYqFa5w-btg8W-7s7PzndkuyJz5CvYzkO0hgYMMLK4xIyRWw':
 				return 'phase1'; 
 				break;
@@ -27,8 +27,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Flip Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Flip Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1f_BYQJD4eOym5Cbm_LmDKvZl3hUufp9g-7J4cKj3FK2qEpvYmH7ddSRdVVvMFDTqVfsk7q6h8C_tZnJzHRh7CFw53zagVXp1vI5Ejry':
 				return 'phase1'; 
 				break;
@@ -53,8 +53,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		}  else if(market_hash_name.indexOf('Stiletto Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Stiletto Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfwOfBfThW-NOJlY20k_jkI7fUhFRB4MRij7j--YXygED6_kptYWmnINDAe1U_MFqE-AK8kubsgZC6vZTBy3dm7iAjty6OmRG0gAYMMLJXF6TfvA':
 				return 'phase1'; 
 				break;
@@ -79,8 +79,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Ursus Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Ursus Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfxuHbZC597dGJkI-bh_vxIYTBnmpC7ZROhuDG_Zi7jQWy-UFqN2r7INDDdAVsMAmD8lLql7vvhJPq75jLzXYysnIn7XbVmQv3309_tWjVng':
 				return 'phase1'; 
 				break;
@@ -105,8 +105,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Navaja Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Navaja Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1OrYYiR95t21n4uFnvHxDLrcqW9e-NV9j_v-5YT0m1HllB81NDG3OoeScgM5aFDSqVbvlLjth8K_6MzOy3dl6yRz7Czemx3ihhhEabQ716OACQLJ_piUbl4':
 				return 'phase1'; 
 				break;
@@ -131,8 +131,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Talon Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Talon Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfxPrMfipP7dezhr-KmsjwPKvBmm5D19V5i_rEpLPigVC7vCwwOj6rYJiWdw87NFyB-wfqxLq5h5PtuJudyHU36SR25i7blkfmiBsYOOc-gvLPVxzAUHaSd1K1':
 				return 'phase1'; 
 				break;
@@ -157,8 +157,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		}  else if(market_hash_name.indexOf('Bowie Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Bowie Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfwObaZzRU7dCJlo-cnvLLMrbukmRB-Ml0mNbR_Y3mjQWLpxo7Oy3tJI6ddwM-aQ7S_VW-w-a8gcDuvZrKz3Rl63F05X7UyRGziRFJa-xvgeveFwsmoJhDFQ':
 				return 'phase1'; 
 				break;
@@ -183,8 +183,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		}   else if(market_hash_name.indexOf('Huntsman Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Huntsman Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfx_LLZTRB7dCJlY20k_jkI7fUhFRB4MRij7j--YXygED6-0Q-Z2umLYGddVc5ZlnU-QXowr2-08O9tZ_JyyAys3Jz4ivUnxK3hwYMMLKe5XXxtg':
 				return 'phase1'; 
 				break;
@@ -209,8 +209,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Bayonet') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Bayonet') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLu8JAllx8zJfAJG48ymmIWZqOf8MqjUx1Rd4cJ5nqeT8Ymi3wzt-UNrZ2mmItWRcgRvM16BqVK4l7jq0J-4vZ3IwHQ16HUq-z-DyALmsiWI':
 				return 'phase1'; 
 				break;
@@ -235,8 +235,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Gut Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Gut Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1ObcTjxP09i5hJCHkuXLI7PQhW4A18l4jeHVu9703Azs-hA_MTuncNWWIVU-aF7Z_1a7k-bo0cW_v8_OyXVqvyAqsy3D30vgdDGy9vw':
 				return 'phase1'; 
 				break;
@@ -261,8 +261,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Shadow Daggers') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Shadow Daggers') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfw-bbeQJD4eOym5Cbm_LmDKvZl3hUufp9g-7J4cKg3AXgrxJkZzqgcdTEcg5sY1mEqQXsk-3q15G76pnKmnFmsikg5CqMgVXp1pw20OEp':
 				return 'phase1'; 
 				break;
@@ -287,8 +287,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('M9 Bayonet') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('M9 Bayonet') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KmsjwPKvBmm5D19V5i_rEpLP5gVO8v11tMmD6IobEdFRsMFmB8lPvlL-9hZbuvJ_JziBn7HYltnvfnES21xhKcKUx0sfosVEP':
 				return 'phase1'; 
 				break;
@@ -313,8 +313,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Butterfly Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Butterfly Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ebcZThQ6tCvq4GGqPP7I6vdk3lu-M1wmeyQyoD8j1yg5RVtMmCmctOWJlI-YwyD_VG8w-nohsPt78zKz3Zhsygq4HnczEHk0k5SLrs4Un2yL0k':
 				return 'phase1'; 
 				break;
@@ -339,8 +339,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Falchion Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Falchion Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1fLEcjVL49KJlY20k_jkI7fUhFRB4MRij7j--YXygED6_kZvZDryJoDHegU4YA2DqQC9wO_mgJe-vM6bwHBlviJ05HjblxC2iQYMMLJU9KLVJA':
 				return 'phase1'; 
 				break;
@@ -370,9 +370,8 @@ exports.detect = (market_hash_name, icon_url) => {
 		}
 
 	} else if(market_hash_name.indexOf('Doppler') > -1 && market_hash_name.indexOf('Gamma Doppler') > -1) {
-
-		if(market_hash_name.indexOf('Karambit') > -1){
-			switch(icon_url){
+		if(market_hash_name.indexOf('Karambit') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJlY20kPb5PrrukmRB-Ml0mNbR_Y3mjQWLpxo7Oy3tI4CcIVA8MArW_VfrkOy-gsK7v5_LmnBmsnYn4i2MzB3j0klMbuZsg-veFwtNHI-dng':
 				return 'phase1'; 
 				break;
@@ -391,8 +390,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('M9 Bayonet') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('M9 Bayonet') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KmsjzMrbcl1RV59VhhuzTypz9iUex-iwwOj6rYJiRew4-MgrSqAO-yLvujMe4tMzJzSM2uylz5SrbnBC0hRpKO-1u1qbLVxzAUNEUr2p2':
 				return 'phase1'; 
 				break;
@@ -411,8 +410,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Bayonet') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Bayonet') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLu8JAllx8zJfAJF7dG7lb-PmOfkP77DqXtZ6dZ029bN_Iv9nBrk-RE-NTygJYOdcwdsMlnW_Vi6xufuhZHt6p2an3cwvCYn5yrZn0O2n1gSOaR__zxS':
 				return 'phase1'; 
 				break;
@@ -431,8 +430,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Flip Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Flip Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1f_BYQJD4eOxlY2GlsjwPKvBmm5D19V5i_rEpLP5gVO8v11rMT_6JtWUcwE2ZVmF_1S9wurv18W5752dyXBlvHNw4XrVzRy1gxxFcKUx0qdLIRFw':
 				return 'phase1'; 
 				break;
@@ -451,8 +450,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Bowie Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Bowie Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfwObaZzRU7dCJlo-cnvLLMrbukWpc5cROjubR5YDwmmukoxIvNmiceN_CKkIgZw6Fq1K9k-_t05G5tJvAzScxv3Eq4i7ZzRbmh04Za-1sjaecHV7KVrsJQvcbhZ35iA':
 				return 'phase1'; 
 				break;
@@ -471,8 +470,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Falchion Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Falchion Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1fLEcjVL49KJlY20kPb5PrrukmRB-Ml0mNbR_Y3mjQWLpxo7Oy3tIIGRI1c5YQuG_VO9xei50MO1tc-YnXRmvXEgsX3aykezhh9KaeM60eveFws9D4cWAA':
 				return 'phase1'; 
 				break;
@@ -491,8 +490,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Butterfly Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Butterfly Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ebcZThQ6tCvq4GGqPD1PrbQqW9e-NV9j_v-5YT0m1HllB81NDG3OobHdVJqYw2C-FTox-fshse-7pSamCZi6HZz5SzezEHm0k0ab-FtgPWACQLJ_leCpCU':
 				return 'phase1'; 
 				break;
@@ -511,8 +510,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Huntsman Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Huntsman Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfx_LLZTRB7dCJlY20kPb5PrrukmRB-Ml0mNbR_Y3mjQWLpxo7Oy3tLYDBJFRoZlvX-VG7xOe70MW06M_AznBnsyEj4ivfnEG20EpPbrY50eveFwtFtzoVzg':
 				return 'phase1'; 
 				break;
@@ -531,8 +530,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		}else if(market_hash_name.indexOf('Shadow Daggers') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Shadow Daggers') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfw-bbeQJD4eOxlY2GlsjwPKvBmm5D19V5i_rEpLP5gVO8v11rMD32co6ddgBoZwvUqwS6wbi71MO6v8jPm3NjvCAl43uPmhS2hRhNcKUx0tlEWukr':
 				return 'phase1'; 
 				break;
@@ -551,8 +550,8 @@ exports.detect = (market_hash_name, icon_url) => {
 				default:
 				return 'Something wrong with your icon_url';
 			}
-		} else if(market_hash_name.indexOf('Gut Knife') > -1){
-			switch(icon_url){
+		} else if(market_hash_name.indexOf('Gut Knife') > -1) {
+			switch(icon_url) {
 				case '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1ObcTjxP09u3mY2KqPP7I6vdk3lu-M1wmeySyoD8j1yg5Rc5Ymz1I9DDJgdtZgnZq1e4xrjrhZe6uc7MmyFr7HUqsCrZlhG3hUxSLrs4Ij6o7R8':
 				return 'phase1'; 
 				break;
